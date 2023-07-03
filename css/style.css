@@ -1,0 +1,167 @@
+	.linked{
+	font-size: 30px;
+    margin-left: 163px;
+	margin-top: 10px;
+	color: #076bed;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+.fa-linkedin::before{
+	position:absolute;
+	left: 268px;
+    bottom: 685px;
+    font-size: 30px;
+}
+.container{
+    margin-right: 46%;
+    margin-top: -2%;
+    box-shadow: 1px 1px 6px #8b8a8ac4;
+    margin-left: 36%;
+    padding-top: 36%;
+    padding-left: 26%;
+    border-radius: 5px;
+}
+.head{
+    margin-left: -12em;
+    margin-top: -17em;
+    font-size:30px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+}
+.para{
+    margin-left: -360px;
+    font-size: 13px;
+    margin-top: -31px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+	color:#777777;
+}
+.show{
+	position: absolute;
+    top: 255px;
+    left: 66em;
+    color: #0058c4;
+    text-decoration: none;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+	font-size: 13px;
+    font-weight: 600;
+	transition:all 1s ease;
+}
+.show:hover{
+	color:#0289ffba;
+}	
+input{
+    margin-left: -27em;
+    padding: 14px;
+    width: 22em;
+    margin-bottom: 23px;
+	border-radius:5px;
+	border: 1px solid #505050;
+}
+.pass{
+	margin-left:-360px;
+	text-decoration:none;
+	color:#0058c4;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+	font-size: 13px;
+    font-weight: 600;
+	transition:all 1s ease;
+}
+.pass:hover{
+	color:#0289ffba;
+}
+button{
+	
+    margin-left: -358px;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #0058c4;
+    padding: 16px 140px;
+    border: none;
+    font-size: 15px;
+    color: white;
+	transition:all 1s ease;
+}
+button:hover{
+	background-color:#0289ffba;
+}
+.hr1{
+	margin-left: -350px;
+    width: 140px;
+    margin-top: 29px;
+}
+.hr2{
+	margin-top: -9px;
+    margin-left: -180px;
+    width: 140px;
+}
+.or{
+	margin-left: -202px;
+    margin-top: -20px;
+    font-size: 17px;
+	color:#777777;
+}
+.google{
+	text-decoration: none;
+    position: absolute;
+    left: 595px;
+	border: 1px solid #525252;
+    border-radius: 30px;
+    padding: 10px 90px;
+	color:#777777;
+	margin-top: -20px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+	font-weight: 600;
+	font-size: 13px;
+}
+.fa-google::before{
+	position: absolute;
+    left: 666px;
+    top: 477px;
+    font-size: 15px;
+}
+.apple{
+	text-decoration: none;
+    position: absolute;
+    left: 595px;
+    margin-top: 38px;
+    border: 1px solid #525252;
+    border-radius: 30px;
+    padding: 10px 102px;
+	color:#777777;
+	font-size: 13px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+}
+.fa-apple::before{
+	position: absolute;
+    left: 678px;
+    top: 533px;
+	font-size:20px;
+}
+.new{
+	color:#777777;
+	position: absolute;
+    left: 42em;
+    bottom: 50px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+}
+.join{
+	text-decoration:none;
+	color: #0058c4;
+	position: absolute;
+    top: 620px;
+    left: 803px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+	transition:all 1s ease;
+}
+.join:hover{
+	color:#0289ffba;
+}
+.link{
+	margin-top: 80px;
+    margin-left: 28em;
+}
+.link a{
+	text-decoration:none;
+	color:#777777;
+	font-size:13px;
+	font-family: 'Noto Serif Ottoman Siyaq', serif;
+}
