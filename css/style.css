@@ -1,167 +1,192 @@
-	.linked{
-	font-size: 30px;
-    margin-left: 163px;
-	margin-top: 10px;
-	color: #076bed;
-	font-family: 'Roboto', sans-serif;
-	font-weight: bold;
+*{
+	margin:0;
+	padding:0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.fa-linkedin::before{
-	position:absolute;
-	left: 268px;
-    bottom: 685px;
-    font-size: 30px;
+.heading h1{
+	margin: 25px 0px 0px 213px;
+	padding:10px;
+	color:#1d63af;
+    font-weight: 100;
+    font-size: 40px;
+    font-weight: bold;
+}
+.heading i{
+	position: absolute;
+    left: 339px;
+    top: 26px;
+	padding:10px;
+	color:#1d63af;
+    font-size: 40px;
+    font-weight: bold;
 }
 .container{
-    margin-right: 46%;
-    margin-top: -2%;
-    box-shadow: 1px 1px 6px #8b8a8ac4;
-    margin-left: 36%;
-    padding-top: 36%;
-    padding-left: 26%;
-    border-radius: 5px;
+	display:flex;
+	box-shadow: 0px 0px 10px 10px #f1f1f1;
+	height: 520px;
+    width: 340px;
+	margin-left:480px;
+	
 }
-.head{
-    margin-left: -12em;
-    margin-top: -17em;
-    font-size:30px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
-}
-.para{
-    margin-left: -360px;
-    font-size: 13px;
-    margin-top: -31px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
-	color:#777777;
-}
-.show{
-	position: absolute;
-    top: 255px;
-    left: 66em;
-    color: #0058c4;
-    text-decoration: none;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
-	font-size: 13px;
+.title h1{
+	margin: 16px 0px 0px 20px;
+	font-size: 33px;
+    line-height: 1.25;
     font-weight: 600;
-	transition:all 1s ease;
+    color: rgba(0,0,0,0.9);
 }
-.show:hover{
-	color:#0289ffba;
-}	
-input{
-    margin-left: -27em;
-    padding: 14px;
-    width: 22em;
-    margin-bottom: 23px;
-	border-radius:5px;
-	border: 1px solid #505050;
+.title p{
+	   margin: 5px 0px 0px 20px
+}
+.email input{
+	margin: 16px 0px 0px 27px;
+    font-size: 13px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    height: 40px;
+    width: 272px;
+    padding-left: 13px;
+    border: 1px solid gray;
+}
+.password input{
+	margin: 16px 0px 0px 27px;
+    font-size: 13px;
+    border-radius: 4px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    height: 40px;
+    width: 272px;
+    padding-left: 13px;
+    border: 1px solid gray;
+}
+.password a{
+	border: 3px solid #0d0b2a00;
+	font-weight: 600;
+    color:#0058c4;
+	position:absolute;
+	top: 258px;
+    left: 738px;
+	text-decoration: none;
+	transition: 0.3ms all ease;
+	border-radius: 13px;
+	padding: 1px 4px;
+}
+.password a:hover{
+    color:#0058c4;
 }
 .pass{
-	margin-left:-360px;
-	text-decoration:none;
+    margin:14px 0px 0px 30px;
+}
+.pass a{
+	border: 3px solid #0d0b2a00;
+	border-radius: 13px;
 	color:#0058c4;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
-	font-size: 13px;
-    font-weight: 600;
-	transition:all 1s ease;
+    font-size: 19px;
+    font-weight: 700;
+	text-decoration:none;
 }
-.pass:hover{
-	color:#0289ffba;
+.pass a:hover{
+    color:#1d63af;
 }
-button{
-	
-    margin-left: -358px;
-    margin-top: 20px;
-    border-radius: 30px;
-    background-color: #0058c4;
-    padding: 16px 140px;
-    border: none;
-    font-size: 15px;
+.btn{
+    margin: 35px 0px 0px 30px;
+}
+.btn a{
+    
+	background-color: #0058c4;
+    padding: 5px 108px 10px 103px;
     color: white;
-	transition:all 1s ease;
+    font-size: 24px;
+    border-radius: 37px;
+    cursor: pointer;
+	text-decoration:none;
 }
-button:hover{
-	background-color:#0289ffba;
+.btn a:hover{
+	 color: white;
+	 background-color: #2576d9;
 }
-.hr1{
-	margin-left: -350px;
-    width: 140px;
-    margin-top: 29px;
+.hr{
+	margin: 40px 0px 0px 161px;
 }
-.hr2{
-	margin-top: -9px;
-    margin-left: -180px;
-    width: 140px;
+.hr h3{
+    position: absolute;
+    top:26rem;
+    left:647px;
+    color: #8080809e;
 }
-.or{
-	margin-left: -202px;
-    margin-top: -20px;
-    font-size: 17px;
-	color:#777777;
+.hr .hr1{
+	border-bottom: 1px solid #80808059;
+    width: 125px;
+    position: absolute;
+    top: 27rem;
+    left: 32rem;
+}
+.hr .hr2{
+	border-bottom: 1px solid #80808059;
+    width: 125px;
+    position: absolute;
+    top: 27rem;
+    left: 42rem;
 }
 .google{
-	text-decoration: none;
-    position: absolute;
-    left: 595px;
-	border: 1px solid #525252;
-    border-radius: 30px;
-    padding: 10px 90px;
-	color:#777777;
-	margin-top: -20px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
-	font-weight: 600;
-	font-size: 13px;
+	margin:37px 0px 0px 30px;
 }
-.fa-google::before{
-	position: absolute;
-    left: 666px;
-    top: 477px;
-    font-size: 15px;
+.google a{
+	border: 1px solid #5252524d;
+    text-decoration: none;
+    padding: 10px 66px;
+    border-radius: 21px;
+	color: gray;
+	position:absolute;
+    top:28em;
+}
+.google i{
+	position:absolute;
+	top: 458px;
+    left: 554px;
 }
 .apple{
-	text-decoration: none;
-    position: absolute;
-    left: 595px;
-    margin-top: 38px;
-    border: 1px solid #525252;
-    border-radius: 30px;
-    padding: 10px 102px;
-	color:#777777;
-	font-size: 13px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
+    margin: 48px 0px 0px 33px;
 }
-.fa-apple::before{
-	position: absolute;
-    left: 678px;
-    top: 533px;
-	font-size:20px;
+.apple a{
+border: 1px solid #5252524d;
+color:gray;
+text-decoration: none;
+padding: 10px 77px;
+border-radius: 21px;
+position:absolute;
+top:32em;
 }
-.new{
-	color:#777777;
-	position: absolute;
-    left: 42em;
-    bottom: 50px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
+.apple i{
+position:absolute;
+top: 522px;
+left: 570px;
 }
 .join{
-	text-decoration:none;
-	color: #0058c4;
-	position: absolute;
-    top: 620px;
-    left: 803px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
-	transition:all 1s ease;
+    margin: 25px 0px 0px 528px;
 }
-.join:hover{
-	color:#0289ffba;
+.join h4{
+font-size: 16px;
+padding: 0px 25px;
+color: gray;
+position:relative;
+font-weight:600;
+}
+.join a{
+color:#0058c4;
+font-weight:500;
+position:absolute;
+text-decoration:none;
+top: 644px;
+left: 684px;
 }
 .link{
-	margin-top: 80px;
-    margin-left: 28em;
+	margin:45px 0px 0px 303px;
 }
 .link a{
+	padding:10px;
 	text-decoration:none;
-	color:#777777;
-	font-size:13px;
-	font-family: 'Noto Serif Ottoman Siyaq', serif;
+	color:gray;
+	font-size: 12px;
 }
