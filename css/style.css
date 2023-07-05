@@ -23,9 +23,9 @@
 .container{
 	display:flex;
 	box-shadow: 0px 0px 10px 10px #f1f1f1;
-	height: 520px;
+	height: 482px;
     width: 340px;
-	margin-left:480px;
+	margin-left:570px;
 	
 }
 .title h1{
@@ -66,7 +66,7 @@
     color:#0058c4;
 	position:absolute;
 	top: 258px;
-    left: 738px;
+    left: 51em;
 	text-decoration: none;
 	transition: 0.3ms all ease;
 	border-radius: 13px;
@@ -111,23 +111,25 @@
 }
 .hr h3{
     position: absolute;
-    top:26rem;
-    left:647px;
+    top:28em;
+    left:49em;
     color: #8080809e;
+	font-weight: 400;
+    font-size: 15px;
 }
 .hr .hr1{
 	border-bottom: 1px solid #80808059;
-    width: 125px;
+    width: 120px;
     position: absolute;
     top: 27rem;
-    left: 32rem;
+    left: 38rem;
 }
 .hr .hr2{
 	border-bottom: 1px solid #80808059;
-    width: 125px;
+    width: 120px;
     position: absolute;
     top: 27rem;
-    left: 42rem;
+    left: 47rem;
 }
 .google{
 	margin:37px 0px 0px 30px;
@@ -144,7 +146,7 @@
 .google i{
 	position:absolute;
 	top: 458px;
-    left: 554px;
+    left: 40em;
 }
 .apple{
     margin: 48px 0px 0px 33px;
@@ -161,7 +163,7 @@ top:32em;
 .apple i{
 position:absolute;
 top: 522px;
-left: 570px;
+left: 41em;
 }
 .join{
     margin: 25px 0px 0px 528px;
@@ -172,20 +174,21 @@ padding: 0px 25px;
 color: gray;
 position:relative;
 font-weight:600;
+left: 6em;
 }
 .join a{
 color:#0058c4;
 font-weight:500;
 position:absolute;
 text-decoration:none;
-top: 644px;
-left: 684px;
+top: 605px;
+left: 774px;
 }
 .link{
 	margin:45px 0px 0px 303px;
 }
 .link a{
-	padding:10px;
+	padding:20px;
 	text-decoration:none;
 	color:gray;
 	font-size: 12px;
